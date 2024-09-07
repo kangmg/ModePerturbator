@@ -1,0 +1,7 @@
+ase
+torchani
+pointgroup
+pymsym
+git+https://github.com/kangmg/PySCF4ASE.git # for gpu acceleration check https://github.com/kangmg/PySCF4ASE
+git+https://github.com/isayevlab/AIMNet2.git@82dcc21d059243f7ee30fe0427c1b718def1e9cb # aimnet2calc
+git+https://github.com/Nilsgoe/mace_hessian.git@31caf70aea7642dd0783eb5129e967ca7352c971 # mace_hessian
