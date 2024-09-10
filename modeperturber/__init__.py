@@ -1,6 +1,6 @@
 __version__ = '0.0.1'
 
-from normal_mode_analysis import vibration_filter, atoms2normal_modes, mode_perturbator
+from .normal_mode_analysis import vibration_filter, atoms2normal_modes, mode_perturbator
 
 #############    setup    #############
 
