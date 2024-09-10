@@ -10,7 +10,7 @@ from mace.calculators import mace_off
 from aimnet2calc import AIMNet2Calculator
 from ase.io import write, read
 from pointgroup import PointGroup
-from pyscf4ase_modi import PySCFCalculator
+from .pyscf4ase_modi import PySCFCalculator
 
 
 def ani_hessian(atoms:ase.Atoms, model:str='ANI2x'):
