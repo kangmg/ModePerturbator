@@ -16,5 +16,5 @@ AIMNet2 = { git = "https://github.com/isayevlab/AIMNet2.git", rev = "82dcc21d059
 mace_hessian = { git = "https://github.com/Nilsgoe/mace_hessian.git", rev = "31caf70aea7642dd0783eb5129e967ca7352c971" }
 
 [build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
