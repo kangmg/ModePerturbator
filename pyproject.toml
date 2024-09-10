@@ -12,7 +12,8 @@ torchani = "*"
 pointgroup = "*"
 pymsym = "*"
 PySCF4ASE = { git = "https://github.com/kangmg/PySCF4ASE.git" }
-AIMNet2 = { git = "https://github.com/isayevlab/AIMNet2.git", rev = "82dcc21d059243f7ee30fe0427c1b718def1e9cb" }
+AIMNet2 = { git = "https://github.com/isayevlab/AIMNet2.git", rev = "82dcc21d059243f7ee30fe0427c1b718def1e9cb", subdirectory = "aimnet2calc" }
+
 mace_hessian = { git = "https://github.com/Nilsgoe/mace_hessian.git", rev = "31caf70aea7642dd0783eb5129e967ca7352c971" }
 
 [build-system]
